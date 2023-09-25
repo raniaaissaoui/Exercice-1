@@ -1,0 +1,44 @@
+body {
+    background-image: url('reader3.jpg');
+    background-size: cover;  /* Assurez-vous que l'image couvre toute la page */
+    background-repeat: no-repeat;  /* Empêche l'image de se répéter */
+    background-position: center center;  /* Centre l'image */
+    background-attachment: fixed;  /* Fait en sorte que l'image reste fixe lors du défilement */
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto; /* Centrer la table horizontalement */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc avec une légère transparence */
+    overflow: hidden; /* Cela aide à appliquer le border-radius aux enfants */
+}
+
+th, td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #d1d1d1; /* Couleur de bordure plus subtile */
+}
+
+th {
+    background-color: #2c3e50; /* Une teinte de bleu foncé */
+    color: #ffffff; /* Texte blanc pour contraster avec le bleu */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1; /* Une teinte de gris clair */
+}
+
+tr:hover {
+    background-color: #bdc3c7; /* Une teinte de gris un peu plus foncée pour le survol */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
