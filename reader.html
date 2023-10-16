@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="reader.css" type="text/css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script> <!-- Inclure D3.js -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSV Content</title>
 </head>
@@ -10,6 +12,7 @@
     <h1>CSV Content</h1>
     <input type="text" id="googleSheetURL" placeholder="Entrez le lien du Google Sheet">
     <button onclick="loadCSVFromURL()">Charger CSV depuis l'URL</button>
+
     <br>
     <ul id="csv-list"></ul>
     <script src="reader.js"></script>
